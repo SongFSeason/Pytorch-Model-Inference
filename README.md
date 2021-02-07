@@ -1,2 +1,8 @@
 # Pytorch-Model-Inference
-### How to run this project
+
+Objective: Deploy a “ML Prediction as a Service” System
+
+#### How to run this project
+```bash
+FLASK_ENV=development FLASK_APP=app.py flask run
+```
