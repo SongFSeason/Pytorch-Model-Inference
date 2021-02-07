@@ -17,6 +17,6 @@ sqlite3
 
 ### How to query API
 ```python
-resp = requests.post("http://localhost:5000/predict",files={"file": open('{path_to_file}/dog.jpg','rb')})
+resp = requests.post("http://172.31.23.99:5000/predict",files={"file": open('/home/ubuntu/Pytorch-Model-Inference/215_imgnet_imgs/ILSVRC2012_test_00000013.JPEG','rb')})
 resp.json()
 ```
