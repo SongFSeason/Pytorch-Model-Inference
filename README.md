@@ -16,5 +16,7 @@ sqlite3
 ```
 
 ### How to query API
+```python
 resp = requests.post("http://localhost:5000/predict",files={"file": open('{path_to_file}/dog.jpg','rb')})
 resp.json()
+```
